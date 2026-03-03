@@ -5,47 +5,63 @@
     <title>Sree - DevOps Engineer Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f6f8;
+            background-color: #f4f6f9;
             color: #333;
         }
         .container {
-            width: 800px;
+            width: 900px;
             margin: 30px auto;
             background: #fff;
-            padding: 30px;
+            padding: 40px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1 {
-            margin-bottom: 5px;
-            color: #2c3e50;
+            margin: 0;
+            font-size: 32px;
+            color: #1f2937;
         }
         h2 {
-            border-bottom: 2px solid #2c3e50;
+            border-bottom: 2px solid #2563eb;
             padding-bottom: 5px;
-            margin-top: 25px;
-            color: #2c3e50;
+            margin-top: 30px;
+            color: #2563eb;
+        }
+        h3 {
+            margin: 10px 0 5px 0;
         }
         .contact {
-            margin-bottom: 20px;
+            margin-top: 10px;
             font-size: 14px;
         }
+        .section {
+            margin-top: 20px;
+        }
         ul {
-            margin: 10px 0 10px 20px;
+            margin: 5px 0 15px 20px;
+        }
+        .skills span {
+            display: inline-block;
+            background: #e5e7eb;
+            padding: 5px 10px;
+            margin: 5px 5px 0 0;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+        .job {
+            margin-bottom: 20px;
         }
         .job-title {
             font-weight: bold;
         }
-        .company {
-            font-style: italic;
-        }
-        .date {
+        .job-duration {
             float: right;
-            color: #555;
+            font-style: italic;
+            font-size: 14px;
         }
-        .clearfix {
+        .clear {
             clear: both;
         }
     </style>
@@ -55,74 +71,100 @@
 <div class="container">
     <h1>Sree</h1>
     <div class="contact">
-        <p>Email: Sree@example.com | Phone: +91-XXXXXXXXXX</p>
-        <p>LinkedIn: linkedin.com/in/Sree | GitHub: github.com/Sree</p>
-        <p>Location: India</p>
+        <p>Email: sree@email.com | Phone: +1-XXX-XXX-XXXX | LinkedIn: linkedin.com/in/sree | Location: City, Country</p>
     </div>
 
-    <h2>Professional Summary</h2>
-    <p>
-        DevOps Engineer with 2+ years of experience in automating, optimizing, 
-        and maintaining scalable infrastructure. Skilled in CI/CD implementation, 
-        cloud platforms, containerization, and infrastructure as code. 
-        Passionate about improving deployment processes and system reliability.
-    </p>
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>
+            DevOps Engineer with 6+ years of experience in designing, implementing, and managing 
+            scalable infrastructure and CI/CD pipelines. Expertise in cloud platforms, automation, 
+            containerization, and infrastructure as code. Proven track record of improving system 
+            reliability, performance, and deployment efficiency.
+        </p>
+    </div>
 
-    <h2>Technical Skills</h2>
-    <ul>
-        <li><strong>Cloud Platforms:</strong> AWS, Azure</li>
-        <li><strong>CI/CD Tools:</strong> Jenkins, GitHub Actions</li>
-        <li><strong>Containerization:</strong> Docker, Kubernetes</li>
-        <li><strong>Infrastructure as Code:</strong> Terraform, CloudFormation</li>
-        <li><strong>Scripting:</strong> Bash, Python</li>
-        <li><strong>Version Control:</strong> Git</li>
-        <li><strong>Monitoring:</strong> Prometheus, Grafana</li>
-        <li><strong>Operating Systems:</strong> Linux (Ubuntu, CentOS)</li>
-    </ul>
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills">
+            <span>AWS</span>
+            <span>Azure</span>
+            <span>Google Cloud</span>
+            <span>Docker</span>
+            <span>Kubernetes</span>
+            <span>Terraform</span>
+            <span>Ansible</span>
+            <span>Jenkins</span>
+            <span>GitHub Actions</span>
+            <span>Linux</span>
+            <span>Bash</span>
+            <span>Python</span>
+            <span>Prometheus</span>
+            <span>Grafana</span>
+            <span>CI/CD</span>
+            <span>Infrastructure as Code</span>
+        </div>
+    </div>
 
-    <h2>Professional Experience</h2>
-    
-    <div>
-        <span class="job-title">DevOps Engineer</span>
-        <span class="date">2023 - Present</span><br>
-        <span class="company">ABC Technologies Pvt Ltd</span>
-        <div class="clearfix"></div>
+    <div class="section">
+        <h2>Professional Experience</h2>
+
+        <div class="job">
+            <div>
+                <span class="job-title">Senior DevOps Engineer – Company Name</span>
+                <span class="job-duration">2018 – Present</span>
+            </div>
+            <div class="clear"></div>
+            <ul>
+                <li>Designed and implemented CI/CD pipelines reducing deployment time by 40%.</li>
+                <li>Managed Kubernetes clusters in production serving 1M+ users.</li>
+                <li>Automated infrastructure provisioning using Terraform and Ansible.</li>
+                <li>Implemented monitoring and alerting using Prometheus and Grafana.</li>
+                <li>Led cloud migration initiatives to AWS improving system scalability.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div>
+                <span class="job-title">DevOps Engineer – Previous Company</span>
+                <span class="job-duration">2014 – 2018</span>
+            </div>
+            <div class="clear"></div>
+            <ul>
+                <li>Built automated deployment pipelines using Jenkins.</li>
+                <li>Containerized applications using Docker.</li>
+                <li>Managed Linux-based production environments.</li>
+                <li>Collaborated with development teams to implement DevOps best practices.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div>
+                <span class="job-title">System Administrator – Earlier Company</span>
+                <span class="job-duration">2012 – 2014</span>
+            </div>
+            <div class="clear"></div>
+            <ul>
+                <li>Maintained on-premise servers and network infrastructure.</li>
+                <li>Automated routine administrative tasks using Bash and Python scripts.</li>
+                <li>Provided 24/7 production support and incident management.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>Bachelor’s Degree in Computer Science</strong> – University Name – Year</p>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
         <ul>
-            <li>Designed and maintained CI/CD pipelines using Jenkins and GitHub Actions.</li>
-            <li>Managed AWS cloud infrastructure and automated deployments using Terraform.</li>
-            <li>Containerized applications using Docker and orchestrated using Kubernetes.</li>
-            <li>Implemented monitoring and logging solutions with Prometheus and Grafana.</li>
-            <li>Improved deployment efficiency by 40% through automation.</li>
+            <li>AWS Certified Solutions Architect</li>
+            <li>Azure DevOps Engineer Expert</li>
         </ul>
     </div>
-
-    <div>
-        <span class="job-title">Junior DevOps Engineer</span>
-        <span class="date">2022 - 2023</span><br>
-        <span class="company">XYZ Solutions</span>
-        <div class="clearfix"></div>
-        <ul>
-            <li>Supported CI/CD processes and automated build pipelines.</li>
-            <li>Maintained Linux servers and performed troubleshooting.</li>
-            <li>Worked closely with development teams to streamline release cycles.</li>
-        </ul>
-    </div>
-
-    <h2>Projects</h2>
-    <ul>
-        <li><strong>Automated CI/CD Pipeline:</strong> Built end-to-end pipeline integrating Git, Jenkins, Docker, and Kubernetes.</li>
-        <li><strong>Infrastructure Automation:</strong> Provisioned complete AWS infrastructure using Terraform modules.</li>
-    </ul>
-
-    <h2>Education</h2>
-    <p><strong>Bachelor of Technology (B.Tech) in Computer Science</strong><br>
-       XYZ University | 2018 - 2022</p>
-
-    <h2>Certifications</h2>
-    <ul>
-        <li>AWS Certified Cloud Practitioner (Optional)</li>
-        <li>Certified Kubernetes Administrator (Optional)</li>
-    </ul>
 
 </div>
 
